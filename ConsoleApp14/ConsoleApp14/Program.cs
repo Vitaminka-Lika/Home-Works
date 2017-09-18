@@ -10,6 +10,12 @@ namespace ConsoleApp14
     {
         static void Main(string[] args)
         {
+            Car[] cars = new Car[5];
+            cars[0] = new Car("Car",000,"Audi","C125","black",3.3,350);
+            cars[1] = new Car("Car", 000, "BMW", "x5", "black", 5.0, 420);
+            cars[0].Show();
+
+            Console.Read();
         }
     }
 }
