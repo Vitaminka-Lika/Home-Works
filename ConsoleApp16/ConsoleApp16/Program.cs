@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using System.Net;
 
 namespace ConsoleApp16
 {
@@ -13,13 +14,22 @@ namespace ConsoleApp16
         {
             try
             {
-                string path=Console.ReadLine();//"http://www.microsoft.com"
-                System.Diagnostics.Process.Start(path);
+                string path = Console.ReadLine();//"http://www.microsoft.com"
+                WebClient client=new WebClient();
+                client.DownloadString(path);
+                Process.Start(path);
+
+
             }
-            catch (Exception ex) {
+            catch (WebException ex) {
                 Console.WriteLine("Ошибка: " + ex.Message);
                 Console.ReadLine();
             }
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Ошибка: " + ex.Message);
+            //    Console.ReadLine();
+            //}
         }
     }
 }
