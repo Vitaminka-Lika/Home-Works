@@ -62,6 +62,12 @@ namespace ConsoleApp18
                 }
             }
             Console.ReadLine();
+
+            TestClass test = new TestClass();
+            test.Change(43);
+            int result = test.Return();
+            Console.WriteLine(result);
+            Console.ReadLine();
         }
     }
 }

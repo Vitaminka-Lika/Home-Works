@@ -13,5 +13,7 @@ namespace ConsoleApp18
         public double Cost { get; set; }
         public string Author { get; set; }
         public int Year { get; set; }
+
+
     }
 }
