@@ -1,0 +1,7 @@
+c:\users\сарбасоваа.local\documents\visual studio 2017\Projects\ConsoleApp19\ConsoleApp19\obj\Debug\ConsoleApp19.csprojResolveAssemblyReference.cache
+c:\users\сарбасоваа.local\documents\visual studio 2017\Projects\ConsoleApp19\ConsoleApp19\bin\Debug\ConsoleApp19.exe.config
+c:\users\сарбасоваа.local\documents\visual studio 2017\Projects\ConsoleApp19\ConsoleApp19\bin\Debug\ConsoleApp19.exe
+c:\users\сарбасоваа.local\documents\visual studio 2017\Projects\ConsoleApp19\ConsoleApp19\bin\Debug\ConsoleApp19.pdb
+c:\users\сарбасоваа.local\documents\visual studio 2017\Projects\ConsoleApp19\ConsoleApp19\obj\Debug\ConsoleApp19.exe
+c:\users\сарбасоваа.local\documents\visual studio 2017\Projects\ConsoleApp19\ConsoleApp19\obj\Debug\ConsoleApp19.pdb
+c:\users\сарбасоваа.local\documents\visual studio 2017\Projects\ConsoleApp19\ConsoleApp19\bin\Debug\Student.xml
